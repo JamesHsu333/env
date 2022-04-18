@@ -13,6 +13,9 @@ source ~/.zplug/init.zsh
 # Initialize profile
 source ~/.profile
 
+# Auto-complete kubectl
+source <(kubectl completion zsh)
+
 # Make sure to use double quotes
 zplug "zsh-users/zsh-history-substring-search"
 
