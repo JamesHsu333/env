@@ -133,4 +133,5 @@ export PATH=/opt/homebrew/bin:$PATH
 
 autoload -Uz compinit
 compinit
+(( ! ${+functions[p10k]} )) || p10k finalize
 # End of lines added by compinstall
