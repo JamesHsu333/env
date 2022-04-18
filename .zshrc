@@ -123,7 +123,6 @@ zstyle ':completion:*' completer _complete _ignored _approximate
 zstyle ':completion:*' max-errors 3
 zstyle :compinstall filename '/Users/james/.zshrc'
 
-alias cat="ccat $*"
 alias c="clear"
 alias ls="ls --color"
 alias ll="ls -la --color"
